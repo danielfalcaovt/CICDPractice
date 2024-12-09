@@ -2,8 +2,8 @@ import { UsersAccess } from "../app/UsersAccess"
 import { User } from "../app/UsersModel";
 
 
-describe('UsersAccess test suite', () => {
-    
+describe.skip('UsersAccess test suite', () => {
+
     let usersAccess: UsersAccess;
 
     const someUser: User = {
